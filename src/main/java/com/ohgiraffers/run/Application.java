@@ -19,7 +19,7 @@ public class Application {
         num2 = sc.nextInt();
 
         Division division = new Division();
-        System.out.println(division.div(num1,num2));
+        System.out.println(division.calculateDivision(num1,num2));
 
         }
 
