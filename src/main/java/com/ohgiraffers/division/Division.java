@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public class Division {
 
-   public static int div(int num1, int num2) {
+   public static int calculateDivision(int num1, int num2) {
         return num1/num2;
     }
 }
