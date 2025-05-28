@@ -3,6 +3,7 @@ package com.ohgiraffers.run;
 import com.ohgiraffers.multiply.Multiply;
 import com.ohgiraffers.sum.Sum;
 import com.ohgiraffers.mod.Mod;
+import com.ohgiraffers.division.Division;
 
 import java.util.Scanner;
 
@@ -13,6 +14,7 @@ public class Application {
         Sum sum = new Sum();
         Multiply multiply = new Multiply();
         Mod mod = new Mod();
+        Division division = new Division();
 
         Scanner sc = new Scanner(System.in);
 
@@ -44,6 +46,12 @@ public class Application {
 
                 System.out.println("곱셈 결과: " + (multiply.calculateMultiply(num1, num2)));
             case 4:
+                System.out.println("첫번째 숫자 입력하세요 : ");
+                int divNum1 = sc.nextInt();
+                System.out.println("두번째 숫자 입력하세요 : ");
+                int divNum2 = sc.nextInt();
+
+                System.out.println(division.calculateDivision(divNum1,divNum2));
             case 5:
                 System.out.println("나누어지는 수를 입력하세요 : ");
                 int dividend = sc.nextInt();
@@ -55,4 +63,5 @@ public class Application {
             default:
         }
     }
+
 }
