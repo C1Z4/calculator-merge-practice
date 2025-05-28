@@ -47,11 +47,11 @@ public class Application {
                 System.out.println("곱셈 결과: " + (multiply.calculateMultiply(num1, num2)));
             case 4:
                 System.out.println("첫번째 숫자 입력하세요 : ");
-                int num1 = sc.nextInt();
+                int divNum1 = sc.nextInt();
                 System.out.println("두번째 숫자 입력하세요 : ");
-                int num2 = sc.nextInt();
+                int divNum2 = sc.nextInt();
 
-                System.out.println(division.div(num1,num2));
+                System.out.println(division.calculateDivision(divNum1,divNum2));
             case 5:
                 System.out.println("나누어지는 수를 입력하세요 : ");
                 int dividend = sc.nextInt();
