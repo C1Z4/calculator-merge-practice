@@ -1,7 +1,7 @@
 package com.ohgiraffers.mod;
 
 public class Mod {
-    public int caculateDivision(int a, int b) {
+    public int caculateMod(int a, int b) {
         int result = 0;
         try {
             result = a % b;

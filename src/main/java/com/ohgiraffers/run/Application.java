@@ -14,7 +14,7 @@ public class Application {
         System.out.println("나누는 수를 입력하세요 : ");
         int divisor = sc.nextInt();
 
-        int modeResult = mod.caculateDivision(dividend, divisor);
+        int modeResult = mod.caculateMod(dividend, divisor);
         System.out.println(modeResult);
     }
 }
